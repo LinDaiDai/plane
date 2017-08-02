@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#game{
+    width: 450px;
+    height: 650px;
+    margin: 0 auto;
+    background: url("img/game.jpg");
+}
+#game .gameTop{
+    position: absolute;
+    font-size: 16px;
+    left: 480px;
+    top:20px;
+    color: #0E68B1;
+    z-index: 2;
+}
+#game #homePage{
+    width: 450px;
+    height: 600px;
+}
+#game .gameBottom{
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    left: 450px;
+    top: 400px;
+}
+#game .gameBottom #startBtn{
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+    width:117px;
+    height: 30px;
+}
+#game .gameBottom #startBtn img{
+    width: 117px;
+    height: 30px;
+}
+
+.plane{
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    cursor: none;
+}
+.ball{
+    width: 15px;
+    height: 25px;
+    position: absolute;
+}
