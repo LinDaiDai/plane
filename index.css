@@ -7,6 +7,7 @@
     height: 650px;
     margin: 0 auto;
     background: url("img/game.jpg");
+    background-repeat: no-repeat;
 }
 #game .gameTop{
     position: absolute;
@@ -40,13 +41,28 @@
 }
 
 .plane{
-    width: 80px;
-    height: 100px;
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    cursor: none;
+    z-index: 2;
+}
+.shield{
+    width: 60px;
+    height: 80px;
     position: absolute;
     cursor: none;
 }
 .ball{
     width: 15px;
-    height: 25px;
+    /*height: 20px;*/
+    position: absolute;
+}
+.enemy{
+    position: absolute;
+}
+.enemyBall{
+    width: 15px;
+    /*height: 25px;*/
     position: absolute;
 }
