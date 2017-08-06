@@ -4,7 +4,7 @@
 }
 #game{
     width: 450px;
-    height: 650px;
+    height: 630px;
     margin: 0 auto;
     background: url("img/game.jpg");
     background-repeat: no-repeat;
@@ -19,14 +19,14 @@
 }
 #game #homePage{
     width: 450px;
-    height: 600px;
+    height: 630px;
 }
 #game .gameBottom{
-    position: absolute;
+    position: relative;
     width: 450px;
     height: 50px;
-    left: 450px;
-    top: 400px;
+    left: 0px;
+    top: -250px;
 }
 #game .gameBottom #startBtn{
     text-decoration: none;
@@ -39,7 +39,18 @@
     width: 117px;
     height: 30px;
 }
-
+#game .gameBottom .mode{
+    position: absolute;
+    font-size: 16px;
+    color: white;
+}
+#game .gameBottom .keyMode{
+    top: 0;
+    right: 50px;
+}
+#game .gameBottom .mouseMode{
+    left: 50px;
+}
 .plane{
     width: 60px;
     height: 80px;
